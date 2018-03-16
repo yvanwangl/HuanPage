@@ -1,0 +1,42 @@
+.appContainer,
+.appContainer .navBar {
+  width: 100%; }
+
+.appContainer .navWrap,
+.appContainer .content {
+  width: 70%;
+  margin: 0 auto; }
+
+.appContainer .navBar {
+  background: #00202b; }
+
+.appContainer .navWrap {
+  text-align: right; }
+  .appContainer .navWrap .huanLogo {
+    float: left;
+    padding: 17px;
+    font-size: 18px;
+    color: #fff;
+    font-family: RobotoThin; }
+  .appContainer .navWrap ul {
+    float: right; }
+    .appContainer .navWrap ul li {
+      display: inline-block; }
+      .appContainer .navWrap ul li a {
+        color: #fff;
+        padding: 25px 40px;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 600;
+        transition: all ease-in-out .3s; }
+        .appContainer .navWrap ul li a.avtive:hover {
+          background: #FD3D50;
+          color: #fff; }
+        .appContainer .navWrap ul li a:hover {
+          background: #fff;
+          color: #000; }
+
+.appContainer .content {
+  color: #fff; }
+
+/*# sourceMappingURL=index.css.map */

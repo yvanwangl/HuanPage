@@ -1,0 +1,52 @@
+$contentWidth: 70%;
+$padding25: 25px;
+@mixin marginAuto(){
+	width: $contentWidth;
+	margin: 0 auto;
+}
+.appContainer,
+.appContainer .navBar {
+	width: 100%;
+}
+.appContainer .navWrap,
+.appContainer .content {
+	@include marginAuto;
+}
+.appContainer .navBar {
+	background: #00202b;
+}
+.appContainer .navWrap {
+	text-align: right;
+	& .huanLogo {
+		float: left;
+		padding: 17px;
+		font-size: 18px;
+		color: #fff;
+		font-family: RobotoThin;
+	}
+	& ul {
+		float: right;
+		& li {
+			display: inline-block;
+			& a {
+				color: #fff;
+				padding: $padding25 40px;
+				display: inline-block;
+				font-size: 18px;
+				font-weight: 600;
+				transition: all ease-in-out .3s;
+				&.avtive:hover {
+					background: #FD3D50;
+					color: #fff;
+				}
+				&:hover {
+					background: #fff;
+					color: #000;
+				}
+			}
+		}
+	}
+}
+.appContainer .content {
+	color: #fff;
+}

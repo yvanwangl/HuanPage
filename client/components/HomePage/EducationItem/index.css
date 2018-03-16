@@ -1,0 +1,25 @@
+.educationItem {
+  position: relative;
+  padding: 25px;
+  font-family: QiHei, RobotoThin; }
+  .educationItem span {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    /* font-family: RobotoThin; */ }
+  .educationItem .time {
+    left: 0; }
+  .educationItem .dort {
+    left: 200px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff; }
+  .educationItem .university {
+    left: 300px; }
+  .educationItem .major {
+    left: 500px; }
+  .educationItem .record {
+    left: 700px; }
+
+/*# sourceMappingURL=index.css.map */

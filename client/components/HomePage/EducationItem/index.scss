@@ -1,0 +1,30 @@
+.educationItem {
+	position: relative;
+	padding: 25px;
+	font-family: QiHei, RobotoThin;
+	& span {
+		position: absolute;
+		top: 50%;
+		transform: translate(0, -50%);
+		/* font-family: RobotoThin; */
+	}
+	& .time {
+		left: 0;
+	}
+	& .dort {
+		left: 200px;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		background-color: #fff;
+	}
+	& .university {
+		left: 300px;
+	}
+	& .major {
+		left: 500px;
+	}
+	& .record {
+		left: 700px;
+	}
+}
